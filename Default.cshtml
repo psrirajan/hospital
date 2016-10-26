@@ -1,0 +1,14 @@
+﻿@{  
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Welcome to Hospital system";
+ 
+    
+     
+    if  (  Request.Form["TestRole"] == "2")
+    {
+        var url = "Patient.aspx";
+      Response.Redirect(url);
+    }
+    
+
+    }
